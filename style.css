@@ -104,22 +104,6 @@ img {
     cursor: pointer;
 }
 
-footer {
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: #5b4746;
-    letter-spacing: 2px;
-    font-size: larger;
-    color: #fff;
-    padding: 0;
-    margin: 0rem;
-    border-top: 2px solid #fff;
-    /* Thin border line */
-    width: 100%;
-    bottom: 0;
-    text-align: center;
-}
 
 @media only screen and (max-width: 600px) {
     .header_text {
