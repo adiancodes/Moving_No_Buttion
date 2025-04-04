@@ -1,0 +1,136 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #F8C8DC;
+    background-image: url('cp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#ans {
+    display: none;
+}
+
+
+
+#ansvideo {
+    visibility: hidden;
+}
+
+#novideo {
+    visibility: hidden;
+}
+
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    border: black;
+    border-width: 3cm;
+    border-radius: 1cm;
+    transition: 0.5s;
+    border: 2px dashed #000;
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    border-radius: 1cm;
+    border: 2px dashed #000;
+}
+
+.header_text {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+}
+
+.header_text span {
+    background-color: rgb(164, 232, 164);
+    border: #000;
+    border-radius: 0.5cm;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff8e9f;
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #5b4746;
+    letter-spacing: 2px;
+    font-size: larger;
+    color: #fff;
+    padding: 0;
+    margin: 0rem;
+    border-top: 2px solid #fff;
+    /* Thin border line */
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .header_text {
+        color: black;
+        font-size: 40px;
+    }
+
+
+    .gif_container {
+        margin-left: 0;
+        height: auto;
+        width: auto;
+    }
+}
